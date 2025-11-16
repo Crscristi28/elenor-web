@@ -1,0 +1,126 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.8);
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    background: rgba(10, 10, 10, 0.8);
+  }
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--color-text);
+  transition: opacity 0.2s;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 0.7;
+}
+
+.languageSelector {
+  position: relative;
+}
+
+.languageButton {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  background: transparent;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: all 0.2s;
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+  font-weight: 500;
+}
+
+.languageButton:hover {
+  border-color: var(--color-text);
+}
+
+.flag {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.langName {
+  display: inline;
+}
+
+@media (max-width: 768px) {
+  .langName {
+    display: none;
+  }
+
+  .languageButton {
+    padding: var(--space-2) var(--space-3);
+  }
+}
+
+.languageDropdown {
+  position: absolute;
+  top: calc(100% + var(--space-2));
+  right: 0;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  min-width: 180px;
+  overflow: hidden;
+  animation: dropdownFadeIn 0.2s ease-out;
+}
+
+@keyframes dropdownFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.languageOption {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.2s;
+  color: var(--color-text);
+  font-size: var(--font-size-base);
+}
+
+.languageOption:hover {
+  background: var(--color-surface);
+}
+
+.languageOptionActive {
+  background: var(--color-surface);
+  font-weight: 600;
+}

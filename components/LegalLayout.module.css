@@ -1,0 +1,138 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg);
+}
+
+.main {
+  padding: var(--space-24) 0 var(--space-32);
+}
+
+/* Content */
+.content {
+  line-height: 1.7;
+}
+
+.content h1 {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  margin-bottom: var(--space-4);
+  color: var(--color-text);
+  background: linear-gradient(135deg, #F97316 0%, #EF4444 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (prefers-color-scheme: dark) {
+  .content h1 {
+    background: linear-gradient(135deg, #FB923C 0%, #F87171 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+.date {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-base);
+  margin-bottom: var(--space-8);
+}
+
+.content h2 {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  margin-top: var(--space-10);
+  margin-bottom: var(--space-4);
+  color: var(--color-text);
+}
+
+.content h3 {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  margin-top: var(--space-8);
+  margin-bottom: var(--space-3);
+  color: var(--color-text);
+}
+
+.content p {
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--space-4);
+}
+
+.content ul,
+.content ol {
+  color: var(--color-text-secondary);
+  margin: 0 0 var(--space-6);
+  padding-left: var(--space-6);
+}
+
+.content li {
+  margin-bottom: var(--space-2);
+}
+
+.content a {
+  color: #F97316;
+  text-decoration: underline;
+  transition: opacity 0.2s;
+}
+
+.content a:hover {
+  opacity: 0.8;
+}
+
+@media (prefers-color-scheme: dark) {
+  .content a {
+    color: #FB923C;
+  }
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-6) 0;
+  font-size: var(--font-size-sm);
+}
+
+.content th,
+.content td {
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.content th {
+  background: var(--color-surface);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.content td {
+  color: var(--color-text-secondary);
+}
+
+.content strong {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: var(--font-size-3xl);
+  }
+
+  .languageBar {
+    justify-content: center;
+  }
+
+  .content table {
+    font-size: var(--font-size-xs);
+  }
+
+  .content th,
+  .content td {
+    padding: var(--space-2) var(--space-3);
+  }
+}

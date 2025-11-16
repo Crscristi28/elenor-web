@@ -1,0 +1,144 @@
+.page {
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+/* Hero */
+.hero {
+  padding: var(--space-32) 0 var(--space-24);
+  text-align: center;
+  background: var(--color-bg);
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 10vw, 6rem);
+  font-weight: 700;
+  margin-bottom: var(--space-6);
+  color: var(--color-text);
+}
+
+.subtitle {
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Features */
+.features {
+  padding: var(--space-24) 0;
+  background: var(--color-bg);
+}
+
+.featuresList {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.featureDetail {
+  padding: var(--space-16) 0;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.featureDetail:last-child {
+  border-bottom: none;
+}
+
+.featureDetail h2 {
+  font-size: var(--font-size-4xl);
+  font-weight: 600;
+  margin-bottom: var(--space-6);
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+.featureDetail p {
+  font-size: var(--font-size-xl);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  max-width: 750px;
+}
+
+/* CTA */
+.cta {
+  padding: var(--space-32) 0;
+  background: #000000;
+  color: white;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark) {
+  .cta {
+    background: #FFFFFF;
+    color: #000000;
+  }
+}
+
+.cta h2 {
+  font-size: var(--font-size-4xl);
+  font-weight: 700;
+  margin-bottom: var(--space-8);
+}
+
+.ctaButton {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-8);
+  background: white;
+  color: #000000;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  border-radius: var(--radius-xl);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border: 2px solid white;
+}
+
+.ctaButton:hover {
+  background: transparent;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  .ctaButton {
+    background: #000000;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+  }
+
+  .ctaButton:hover {
+    background: transparent;
+    color: #000000;
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    padding: var(--space-16) 0;
+  }
+
+  .subtitle {
+    font-size: var(--font-size-base);
+  }
+
+  .featureDetail {
+    padding: var(--space-12) 0;
+  }
+
+  .featureDetail h2 {
+    font-size: var(--font-size-2xl);
+  }
+
+  .featureDetail p {
+    font-size: var(--font-size-base);
+  }
+
+  .cta h2 {
+    font-size: var(--font-size-3xl);
+  }
+}
