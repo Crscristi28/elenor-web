@@ -3,22 +3,17 @@ import "../styles/globals.css";
 import Providers from "@/components/Providers";
 
 export const metadata: Metadata = {
-  title: "Elora AI by Elenor - Intelligence Made Simple",
-  description: "Your intelligent AI assistant with image generation, document processing, intelligent memory, and multilingual support.",
+  metadataBase: new URL('https://elenor.io'),
+
+  title: "Elenor AI Platform - From intelligent assistants to enterprise agents and APIs",
+  description: "Elenor AI Platform - From intelligent assistants to enterprise agents and APIs. Intelligence made simple. Orchestrating state-of-the-art AI models from Anthropic, Google, and OpenAI.",
 
   // Open Graph for Facebook, LinkedIn
   openGraph: {
-    title: 'Elora AI by Elenor - Intelligence Made Simple',
-    description: 'Your intelligent AI assistant with image generation, document processing, intelligent memory, and multilingual support.',
+    title: 'Elenor AI Platform - Intelligence Made Simple',
+    description: 'From intelligent assistants to enterprise agents and APIs. Orchestrating state-of-the-art AI models from Anthropic, Google, and OpenAI.',
     url: 'https://elenor.io',
     siteName: 'Elenor Platform',
-    images: [
-      {
-        url: 'https://elenor.io/elora-promo.mp4', // Using video thumbnail for now
-        width: 1200,
-        height: 630,
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
@@ -26,8 +21,8 @@ export const metadata: Metadata = {
   // Twitter Cards
   twitter: {
     card: 'summary_large_image',
-    title: 'Elora AI by Elenor - Intelligence Made Simple',
-    description: 'Your intelligent AI assistant with image generation, document processing, intelligent memory, and multilingual support.',
+    title: 'Elenor AI Platform - Intelligence Made Simple',
+    description: 'From intelligent assistants to enterprise agents and APIs. Orchestrating AI models from Anthropic, Google, and OpenAI.',
   },
 
   // Icons
@@ -37,7 +32,7 @@ export const metadata: Metadata = {
   },
 
   // Keywords for SEO
-  keywords: ['AI assistant', 'voice chat', 'image generation', 'AI chatbot', 'intelligent assistant', 'multilingual AI', 'Elora', 'Elenor'],
+  keywords: ['AI platform', 'AI assistant', 'enterprise AI', 'AI agents', 'AI API', 'intelligent assistant', 'multilingual AI', 'Elora', 'Elenor', 'Anthropic', 'Google AI', 'OpenAI', 'Claude', 'Gemini', 'GPT'],
 
   // Verification tags (add when you have them)
   // verification: {
