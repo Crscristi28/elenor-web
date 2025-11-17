@@ -93,7 +93,8 @@ export const mainPageTranslations = {
         cookies: "Cookies",
         usage: "Usage",
         help: "Help",
-        support: "Support"
+        support: "Support",
+        contact: "Contact"
       },
       copyright: "Elenor Platform. Built with intelligence.",
       brand: "Elora AI",
@@ -194,7 +195,8 @@ export const mainPageTranslations = {
         cookies: "Cookies",
         usage: "Využití",
         help: "Nápověda",
-        support: "Podpora"
+        support: "Podpora",
+        contact: "Kontakt"
       },
       copyright: "Elenor Platform. Postaveno s inteligencí.",
       brand: "Elora AI",
@@ -295,7 +297,8 @@ export const mainPageTranslations = {
         cookies: "Cookie-uri",
         usage: "Utilizare",
         help: "Ajutor",
-        support: "Suport"
+        support: "Suport",
+        contact: "Contact"
       },
       copyright: "Elenor Platform. Construit cu inteligență.",
       brand: "Elora AI",

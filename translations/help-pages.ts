@@ -261,7 +261,7 @@ export const helpPagesTranslations = {
         title: "Contact Us",
         description: "Have a question or need assistance? Reach out to our support team and we'll get back to you within 24 hours.",
         email: "Email:",
-        emailAddress: "support@elenor.app"
+        emailAddress: "support@elenor.io"
       },
       bugs: {
         title: "Report a Bug",
@@ -273,7 +273,7 @@ export const helpPagesTranslations = {
           "Share any error messages you saw"
         ],
         email: "Send bug reports to",
-        emailAddress: "bugs@elenor.app"
+        emailAddress: "support@elenor.io"
       },
       features: {
         title: "Request a Feature",
@@ -284,7 +284,7 @@ export const helpPagesTranslations = {
           "Share any examples from other apps"
         ],
         email: "Send feature requests to",
-        emailAddress: "feedback@elenor.app"
+        emailAddress: "feedback@elenor.io"
       },
       faq: {
         title: "Frequently Asked Questions",
@@ -592,7 +592,7 @@ export const helpPagesTranslations = {
         title: "Kontaktujte nás",
         description: "Máte otázku nebo potřebujete pomoc? Obraťte se na náš tým podpory a ozveme se vám do 24 hodin.",
         email: "E-mail:",
-        emailAddress: "support@elenor.app"
+        emailAddress: "support@elenor.io"
       },
       bugs: {
         title: "Nahlásit chybu",
@@ -604,7 +604,7 @@ export const helpPagesTranslations = {
           "Sdílejte jakékoli chybové zprávy, které jste viděli"
         ],
         email: "Posílejte hlášení chyb na",
-        emailAddress: "bugs@elenor.app"
+        emailAddress: "support@elenor.io"
       },
       features: {
         title: "Požádat o funkci",
@@ -615,7 +615,7 @@ export const helpPagesTranslations = {
           "Sdílejte jakékoli příklady z jiných aplikací"
         ],
         email: "Posílejte žádosti o funkce na",
-        emailAddress: "feedback@elenor.app"
+        emailAddress: "feedback@elenor.io"
       },
       faq: {
         title: "Často kladené otázky",
@@ -923,7 +923,7 @@ export const helpPagesTranslations = {
         title: "Contactează-ne",
         description: "Ai o întrebare sau ai nevoie de asistență? Contactează echipa noastră de suport și îți vom răspunde în 24 de ore.",
         email: "E-mail:",
-        emailAddress: "support@elenor.app"
+        emailAddress: "support@elenor.io"
       },
       bugs: {
         title: "Raportează un bug",
@@ -935,7 +935,7 @@ export const helpPagesTranslations = {
           "Partajează orice mesaje de eroare pe care le-ai văzut"
         ],
         email: "Trimite rapoarte de bug-uri la",
-        emailAddress: "bugs@elenor.app"
+        emailAddress: "support@elenor.io"
       },
       features: {
         title: "Solicită o funcție",
@@ -946,7 +946,7 @@ export const helpPagesTranslations = {
           "Partajează orice exemple din alte aplicații"
         ],
         email: "Trimite solicitări de funcții la",
-        emailAddress: "feedback@elenor.app"
+        emailAddress: "feedback@elenor.io"
       },
       faq: {
         title: "Întrebări frecvente",

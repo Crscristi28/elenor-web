@@ -35,7 +35,7 @@ export default function Home() {
                 </svg>
               </a>
               <a href="#features" className={styles.secondaryButton}>
-                Explore Features
+                Learn More
               </a>
             </div>
           </div>
@@ -124,6 +124,7 @@ export default function Home() {
               <a href="/usage">{mainPage.footer.links.usage}</a>
               <a href="/help">{mainPage.footer.links.help}</a>
               <a href="/support">{mainPage.footer.links.support}</a>
+              <a href="/contact">{mainPage.footer.links.contact}</a>
             </div>
           </div>
           <div className={styles.footerBottom}>
